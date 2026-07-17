@@ -19,16 +19,11 @@ A cozy, cat-themed one-page site built to demonstrate global theme management wi
 ![Home Dark](./screenshots/home-dark.png)
 
 ### About Section
-![About Section](./screenshots/about-section.png)
+![About Section](./screenshots/about.png)
 
 ### Menu Section (Meet the Regulars)
-![Menu Section](./screenshots/menu-section.png)
+![Menu Section](./screenshots/menu.png)
 
-### Mobile View
-![Mobile View](./screenshots/mobile-view.png)
-
-### Mobile Navigation Menu (Open)
-![Mobile Nav Open](./screenshots/mobile-nav-open.png)
 
 ## 🛠️ Tech Stack
 
