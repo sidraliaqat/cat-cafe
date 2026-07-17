@@ -58,31 +58,10 @@ src/
 
 Clone the repo and install dependencies:
 
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/sidraliaqat/cat-cafe.git
+cd cat-cafe
 npm install
 
 Run the dev server:
 
 npm run dev
-
-Open the printed local URL (usually http://localhost:5173).
-
-## 🌐 Live Demo
-
-Deployed via GitHub Pages: https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/
-
-### Deploying it yourself
-
-npm install gh-pages --save-dev
-npm run deploy
-
-Then enable GitHub Pages in Settings → Pages, using the gh-pages branch as the source.
-
-## 📄 License
-
-Built as a frontend learning assignment (Context API practice). Free to use as a reference.
-
----
-
-**Note:** Replace YOUR_USERNAME and YOUR_REPO_NAME with your actual GitHub username and repository name. Add your screenshots to the screenshots/ folder.
