@@ -34,20 +34,35 @@ A cozy, cat-themed one-page site built to demonstrate global theme management wi
 ## 📁 Project Structure
 
 src/
+
 ├── context/
+
 │   └── ThemeContext.jsx    # Provider, useTheme hook, theme persistence
+
 ├── components/
+
 │   ├── Navbar.jsx           # Logo, nav links, hamburger menu, theme toggle
+
 │   ├── ThemeToggle.jsx      # Button that switches theme
+
 │   ├── Hero.jsx             # Landing headline + CTA
+
 │   ├── About.jsx            # "Our Story" section
+
 │   ├── MenuSection.jsx      # Renders CatCard list
+
 │   ├── CatCard.jsx          # Individual cat card
+
 │   ├── CatIllustration.jsx  # SVG cat illustration
+
 │   └── Footer.jsx
+
 ├── App.jsx
+
 ├── App.css
+
 └── main.jsx
+
 
 ## 🚀 Getting Started
 
