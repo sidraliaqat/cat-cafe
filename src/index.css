@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg: #fff8f2;
+  --surface: #ffffff;
+  --text: #3a2e2a;
+  --text-soft: #7a6a63;
+  --accent: #ef7a91;
+  --accent-dark: #d75a74;
+  --card-1: #fdece3;
+  --card-2: #efe9fa;
+  --card-3: #fdf1de;
+  --border: rgba(58, 46, 42, 0.08);
+}
+
+[data-theme='dark'] {
+  --bg: #221a24;
+  --surface: #2e2433;
+  --text: #f5eef0;
+  --text-soft: #c9bcc4;
+  --accent: #ef7a91;
+  --accent-dark: #f79cad;
+  --card-1: #3a2b34;
+  --card-2: #322a44;
+  --card-3: #3a3128;
+  --border: rgba(255, 255, 255, 0.08);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3 {
+  font-family: 'Quicksand', sans-serif;
+}
