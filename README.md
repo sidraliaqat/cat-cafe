@@ -12,11 +12,13 @@ A cozy, cat-themed one-page site built to demonstrate global theme management wi
 
 ## 📸 Screenshots
 
+### Home Page (Dark Mode)
+![Home Dark](./screenshots/home-dark.png)
+
+
 ### Home Page (Light Mode)
 ![Home Light](./screenshots/home-light.png)
 
-### Home Page (Dark Mode)
-![Home Dark](./screenshots/home-dark.png)
 
 ### About Section
 ![About Section](./screenshots/about.png)
