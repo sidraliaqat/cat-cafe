@@ -1,96 +1,88 @@
-🐾 MEOW CAFÉ
+# 🐾 Meow Café
 
-A cozy, cat-themed one-page site built to demonstrate global theme
-management with React's Context API — light/dark mode, persisted
-across refreshes, toggleable from anywhere in the component tree.
+A cozy, cat-themed one-page site built to demonstrate global theme management with React's Context API — light/dark mode, persisted across refreshes, toggleable from anywhere in the component tree.
 
+## ✨ Features
 
-✨ FEATURES
+- 🎨 Light / Dark theme via ThemeContext + useContext
+- 💾 Theme choice persisted in localStorage (falls back to OS preference on first visit)
+- ⚡ useMemo / useCallback used in the context provider to avoid unnecessary re-renders
+- 📱 Responsive navbar with a hamburger menu on mobile
+- 🌸 Clean, reusable component structure (Navbar, Hero, About, MenuSection, CatCard, Footer)
 
-- Light / Dark theme via ThemeContext + useContext
-- Theme choice persisted in localStorage (falls back to OS preference on first visit)
-- useMemo / useCallback used in the context provider to avoid unnecessary re-renders
-- Responsive navbar with a hamburger menu on mobile
-- Clean, reusable component structure (Navbar, Hero, About, MenuSection, CatCard, Footer)
+## 📸 Screenshots
 
+### Home Page (Light Mode)
+![Home Light](./screenshots/home-light.png)
 
-📸 SCREENSHOTS
+### Home Page (Dark Mode)
+![Home Dark](./screenshots/home-dark.png)
 
-Home - Light Mode
-[add screenshot here: screenshots/home-light.png]
+### About Section
+![About Section](./screenshots/about-section.png)
 
-Home - Dark Mode
-[add screenshot here: screenshots/home-dark.png]
+### Menu Section (Meet the Regulars)
+![Menu Section](./screenshots/menu-section.png)
 
-About Section
-[add screenshot here: screenshots/about.png]
+### Mobile View
+![Mobile View](./screenshots/mobile-view.png)
 
-Meet the Regulars (Cat Cards)
-[add screenshot here: screenshots/menu.png]
+### Mobile Navigation Menu (Open)
+![Mobile Nav Open](./screenshots/mobile-nav-open.png)
 
-Mobile View - Menu Closed
-[add screenshot here: screenshots/mobile-closed.png]
-
-Mobile View - Menu Open
-[add screenshot here: screenshots/mobile-open.png]
-
-
-🛠️ TECH STACK
+## 🛠️ Tech Stack
 
 - React 18
-- Vite (build tool & dev server)
+- Vite — build tool & dev server
 - Plain CSS with CSS variables for theming (no CSS framework)
 
-
-📁 PROJECT STRUCTURE
+## 📁 Project Structure
 
 src/
 ├── context/
-│   └── ThemeContext.jsx    (Provider, useTheme hook, theme persistence)
+│   └── ThemeContext.jsx    # Provider, useTheme hook, theme persistence
 ├── components/
-│   ├── Navbar.jsx           (Logo, nav links, hamburger menu, theme toggle)
-│   ├── ThemeToggle.jsx      (Button that switches theme)
-│   ├── Hero.jsx             (Landing headline + CTA)
-│   ├── About.jsx            (Our Story section)
-│   ├── MenuSection.jsx      (Renders CatCard list)
-│   ├── CatCard.jsx          (Individual cat card)
-│   ├── CatIllustration.jsx  (SVG cat illustration)
+│   ├── Navbar.jsx           # Logo, nav links, hamburger menu, theme toggle
+│   ├── ThemeToggle.jsx      # Button that switches theme
+│   ├── Hero.jsx             # Landing headline + CTA
+│   ├── About.jsx            # "Our Story" section
+│   ├── MenuSection.jsx      # Renders CatCard list
+│   ├── CatCard.jsx          # Individual cat card
+│   ├── CatIllustration.jsx  # SVG cat illustration
 │   └── Footer.jsx
 ├── App.jsx
 ├── App.css
 └── main.jsx
 
-
-🚀 GETTING STARTED
+## 🚀 Getting Started
 
 Clone the repo and install dependencies:
 
-  git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-  cd YOUR_REPO_NAME
-  npm install
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+cd YOUR_REPO_NAME
+npm install
 
 Run the dev server:
 
-  npm run dev
+npm run dev
 
 Open the printed local URL (usually http://localhost:5173).
 
+## 🌐 Live Demo
 
-🌐 LIVE DEMO
+Deployed via GitHub Pages: https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/
 
-Deployed via GitHub Pages:
-https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/
+### Deploying it yourself
 
-Deploying it yourself:
+npm install gh-pages --save-dev
+npm run deploy
 
-  npm install gh-pages --save-dev
-  npm run deploy
+Then enable GitHub Pages in Settings → Pages, using the gh-pages branch as the source.
 
-Then enable GitHub Pages in Settings → Pages, using the gh-pages
-branch as the source.
+## 📄 License
 
+Built as a frontend learning assignment (Context API practice). Free to use as a reference.
 
-📄 LICENSE
+---
 
-Built as a frontend learning assignment (Context API practice).
-Free to use as a reference.
+**Note:** Replace YOUR_USERNAME and YOUR_REPO_NAME with your actual GitHub username and repository name. Add your screenshots to the screenshots/ folder.
